@@ -8,7 +8,7 @@ int main()
     cin >> n;
     cout << "Fibonacci Series is: ";
 
-    for (int i = 1; i < n; i++)
+    for (int i = 1; i <= n; i++)
     {
         cout << first << "\t";
         next = first + second;
